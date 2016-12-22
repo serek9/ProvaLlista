@@ -11,6 +11,16 @@
     tools:context="com.example.dam.provallista.MainActivity">
 
     <Button
+        android:text="Prova 4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnProva4"
+        android:layout_below="@+id/btnProva3"
+        android:layout_alignLeft="@+id/btnProva3"
+        android:layout_alignStart="@+id/btnProva3"
+        android:layout_marginTop="14dp" />
+
+    <Button
         android:text="Prova 1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,13 +48,13 @@
         android:layout_marginTop="13dp" />
 
     <Button
-        android:text="Prova 4"
+        android:text="Prova 5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btnProva4"
-        android:layout_below="@+id/btnProva3"
-        android:layout_alignLeft="@+id/btnProva3"
-        android:layout_alignStart="@+id/btnProva3"
-        android:layout_marginTop="14dp" />
+        android:id="@+id/btnProva5"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/btnProva4"
+        android:layout_alignLeft="@+id/btnProva4"
+        android:layout_alignStart="@+id/btnProva4" />
 
 </RelativeLayout>
